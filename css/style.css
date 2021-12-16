@@ -1,0 +1,295 @@
+body {
+    background-image: url(../images/bg-header-desktop.png);
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.section1 img {
+    margin: 110px 0 25px 0;
+    width: 110px;
+}
+
+h1 {
+    color: hsl(210, 10%, 33%);
+    font-size: 37px;
+    margin-bottom: 5px;
+}
+
+.section1 p {
+    color: hsl(201, 11%, 66%);
+    width: 45%;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 50px;
+    line-height: 26px;
+}
+
+.section1 button {
+    padding: 14px 35px;
+    color: rgba(255, 255, 255, 0.822);
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    margin-bottom: 100px;
+
+}
+
+.btn1 {
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 10px;
+    border: none;
+    border-bottom: 3px solid hsl(171, 68%, 32%);
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: hsla(171, 66%, 44%, 0.856);
+    box-shadow: 1px 6px 9px hsla(171, 66%, 44%, 0.514);
+}
+
+.btn2 {
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    border-bottom: 3px solid hsl(233, 57%, 55%);
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: hsla(233, 100%, 69%, 0.863);
+    box-shadow: 1px 6px 9px hsla(233, 57%, 55%, 0.472);
+}
+
+.section2 .div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section2 h2 {
+    color: hsl(210, 10%, 33%);
+    font-size: 32px;
+    margin-bottom: 9px;
+
+}
+
+
+.section2 .div1 p {
+    width: 50%;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    line-height: 27px;
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+
+.section2 img {
+    width: 670px;
+    position: relative;
+    right: 80px;
+
+}
+
+.flex1 {
+    display: flex;
+
+}
+
+.section2 h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.section2 .flex1 p {
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 50px;
+
+}
+
+.text1 {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section3 h2 {
+    margin-top: 130px;
+    color: hsl(210, 10%, 33%);
+    font-size: 32px;
+    margin-bottom: 3px;
+}
+
+.section3 p {
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 80px;
+}
+
+.section3 img {
+    width: 730px;
+    margin-bottom: 90px;
+}
+
+.text3 {
+    text-align: center;
+}
+
+.section4 h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+
+.section4 .text3 p {
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 70px;
+}
+
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text4 {
+    text-align: center;
+    margin-left: 38px;
+
+}
+
+.text4 img {
+    width: 40px;
+}
+
+.text4 h4 {
+    color: hsl(210, 10%, 33%);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.text4 p {
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 150px;
+}
+
+#img2 {
+    width: 30px;
+}
+
+.margin1 {
+    margin-top: 15px;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 130px;
+
+}
+
+.flex3 img {
+    width: 120px;
+}
+
+#size {
+    width: 150px;
+}
+
+.section5 h2 {
+    color: hsl(210, 10%, 33%);
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.section5 p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: hsl(0, 11%, 95%);
+}
+
+.section6 {
+    display: flex;
+    padding: 30px 0;
+    align-items: center;
+
+}
+
+.section6 img {
+    width: 45px;
+    margin-right: 120px;
+    margin-left: 100px;
+
+
+}
+
+.section6 div {
+    color: hsl(210, 10%, 33%);
+    font-size: 15px;
+    margin-right: 90px;
+
+}
+
+.section6 div p {
+    cursor: pointer;
+}
+
+.section6 div p:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.div6 {
+    padding-bottom: 30px;
+
+}
+
+#icon-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+    margin-left: 240px;
+
+}
+
+svg {
+    margin-left: 20px;
+    margin-right: 0;
+
+    cursor: pointer;
+}
+
+
+svg:hover path {
+    fill: hsl(171, 66%, 44%);
+}
